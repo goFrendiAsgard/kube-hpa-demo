@@ -10,7 +10,7 @@ HPA Demo with kubernetes. Source: https://kubernetes.io/docs/tasks/run-applicati
 # How to run
 
 ```sh
-kubectl -f deployment.yaml hpa.yaml service.yaml
+kubectl apply -f deployment.yaml -f hpa.yaml -f service.yaml
 ```
 
 # How to test the HPA
